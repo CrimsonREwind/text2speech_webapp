@@ -19,6 +19,15 @@ Make sure you have the following installed:
 2. Install dependencies: `pip install -r requirements.txt`
 3. Set up your IBM Cloud Text-to-Speech API credentials.
 
+## Screenshot
+<img src="https://github.com/CrimsonREwind/text2speech_webapp/blob/a52a91f985791a78c5d4c4dc69f30a236310d3ea/sample/images/Screenshot%20from%202024-03-05%2007-27-06.png">
+<img src="https://github.com/CrimsonREwind/text2speech_webapp/blob/a52a91f985791a78c5d4c4dc69f30a236310d3ea/sample/images/Screenshot%20from%202024-03-05%2007-27-20.png">
+<img src="https://github.com/CrimsonREwind/text2speech_webapp/blob/a52a91f985791a78c5d4c4dc69f30a236310d3ea/sample/images/Screenshot%20from%202024-03-05%2007-27-30.png">
+<img src="https://github.com/CrimsonREwind/text2speech_webapp/blob/a52a91f985791a78c5d4c4dc69f30a236310d3ea/sample/images/Screenshot%20from%202024-03-05%2007-28-52.png">
+<img src="https://github.com/CrimsonREwind/text2speech_webapp/blob/a52a91f985791a78c5d4c4dc69f30a236310d3ea/sample/images/Screenshot%20from%202024-03-05%2007-29-04.png">
+<img src="https://github.com/CrimsonREwind/text2speech_webapp/blob/a52a91f985791a78c5d4c4dc69f30a236310d3ea/sample/images/Screenshot%20from%202024-03-05%2007-29-50.png">
+<img src="https://github.com/CrimsonREwind/text2speech_webapp/blob/a52a91f985791a78c5d4c4dc69f30a236310d3ea/sample/images/Screenshot%20from%202024-03-05%2007-30-01.png">
+
 ## Usage
 1. Run the Streamlit app: `streamlit run app.py`
 2. Visit `http://localhost:8501` in your browser to access the web app.
