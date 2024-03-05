@@ -44,7 +44,9 @@ Input:
 
 Output: 
 
-![Generated audio](https://raw.githubusercontent.com/CrimsonREwind/text2speech_webapp/16603ad9a7b0c12cba52391d617c8d74a55abc1f/sample/audio/generated.wav)
+[Generated audio](https://raw.githubusercontent.com/CrimsonREwind/text2speech_webapp/16603ad9a7b0c12cba52391d617c8d74a55abc1f/sample/audio/generated.wav)
+
+[Try Webapp without downloading](https://huggingface.co/spaces/TRTS/t2sibm_webapp)
 
 ## Contributing
 Feel free to contribute to the project! If you find bugs, have feature requests, or want to improve the code, follow these steps:
