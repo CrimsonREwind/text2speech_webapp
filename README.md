@@ -36,11 +36,11 @@ Make sure you have the following installed:
 ## IBM Cloud Text-to-Speech API Credentials
 Obtain your API key and URL from IBM Cloud.
 
-##Sample
-Input:
+## Sample
+Input: \n
 ```"Hello there! This is a test for text-to-speech functionality. I hope this message finds you well. Technology is amazing, isn't it? It's fascinating how computers can convert written words into spoken ones. Let me know how this sounds on your end, and if there's anything else you'd like to try!"```
 
-Output:
+Output: \n
 ![Generated audio](https://raw.githubusercontent.com/CrimsonREwind/text2speech_webapp/16603ad9a7b0c12cba52391d617c8d74a55abc1f/sample/audio/generated.wav)
 
 ## Contributing
