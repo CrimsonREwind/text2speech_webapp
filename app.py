@@ -6,6 +6,9 @@ import streamlit as st
 exp=st.sidebar.expander("Settings")
 api=exp.text_input("API-Key")
 url=exp.text_input("Url")
+label="Get API-key"
+link = "https://cloud.ibm.com/resources"
+exp.link_button(label, link, help=None, type="secondary", disabled=False, use_container_width=False)
 
 st.title("Text To Speech")
 
@@ -19,7 +22,10 @@ def on_button_click():
             text_to_speech.synthesize(
                 text_input,
                 voice=voice_sel,
-                accept='audio/wav'        
+                accept='audio/wav',
+                pitch_percentage = pitch,
+                rate_percentage = speed
+
             ).get_result().content)
         
     script_directory = os.path.dirname(os.path.abspath(__file__))
@@ -44,6 +50,8 @@ file_input=st.text_input("File Name")
 voice_sel=st.selectbox("Select a Voice", ["en-AU_HeidiExpressive", "en-US_LisaExpressive", "en-US_EmmaExpressive", "en-US_AllisonExpressive", "de-DE_BirgitVoice", "en-US_MichaelVoice", "ko-KR_JinV3Voice", "en-AU_JackExpressive", "fr-FR_ReneeVoice", "de-DE_DieterVoice", "en-US_MichaelExpressive", "en-US_AllisonVoice", "en-GB_KateVoice", "de-DE_BirgitV3Voice", "de-DE_DieterV3Voice", "en-US_HenryV3Voice", "es-ES_EnriqueV3Voice", "en-US_LisaVoice", "ja-JP_EmiVoice", "en-US_MichaelV2Voice", "ko-KR_JinV2Voice", "es-ES_EnriqueVoice", "fr-CA_LouiseV3Voice", "es-LA_SofiaVoice", "es-ES_LauraVoice", "nl-NL_MerelV3Voice", "en-GB_KateV3Voice", "en-US_OliviaV3Voice", "pt-BR_IsabelaV3Voice", "en-US_KevinV3Voice", "it-IT_FrancescaVoice", "de-DE_DieterV2Voice", "ja-JP_EmiV3Voice", "en-US_AllisonV3Voice", "de-DE_ErikaV3Voice", "en-US_LisaV2Voice", "fr-FR_NicolasV3Voice", "en-US_MichaelV3Voice", "en-US_EmilyV3Voice", "en-GB_CharlotteV3Voice", "pt-BR_IsabelaVoice", "es-US_SofiaVoice", "de-DE_BirgitV2Voice", "it-IT_FrancescaV3Voice", "it-IT_FrancescaV2Voice", "en-US_AllisonV2Voice", "es-US_SofiaV3Voice", "en-US_LisaV3Voice", "fr-FR_ReneeV3Voice"])
 
 file_name=file_input+'.wav'
+pitch = st.slider('pitch', -100, 100, 0)
+speed = st.slider('speed', -100, 100, 0)
 
 
 if st.button("Generate"):
