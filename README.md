@@ -41,7 +41,7 @@ Input:
 ```"Hello there! This is a test for text-to-speech functionality. I hope this message finds you well. Technology is amazing, isn't it? It's fascinating how computers can convert written words into spoken ones. Let me know how this sounds on your end, and if there's anything else you'd like to try!"```
 
 Output:
-<audio src="https://github.com/CrimsonREwind/text2speech_webapp/blob/main/sample/audio/generated.wav">
+![Generated audio](https://github.com/CrimsonREwind/text2speech_webapp/blob/main/sample/audio/generated.wav)
 
 ## Contributing
 Feel free to contribute to the project! If you find bugs, have feature requests, or want to improve the code, follow these steps:
