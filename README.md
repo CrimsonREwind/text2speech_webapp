@@ -20,11 +20,12 @@ Make sure you have the following installed:
 3. Set up your IBM Cloud Text-to-Speech API credentials.
 
 ## Screenshot
-<img src="https://github.com/CrimsonREwind/text2speech_webapp/blob/a52a91f985791a78c5d4c4dc69f30a236310d3ea/sample/images/Screenshot%20from%202024-03-05%2007-27-06.png">
+![Screenshot from 2024-03-05 07-27-06](https://github.com/CrimsonREwind/text2speech_webapp/assets/106526797/4c97a3a7-f6e4-4740-a35a-7280bac15134)
 
-<img src="https://github.com/CrimsonREwind/text2speech_webapp/blob/a52a91f985791a78c5d4c4dc69f30a236310d3ea/sample/images/Screenshot%20from%202024-03-05%2007-27-30.png">
+![Screenshot from 2024-03-05 07-27-30](https://github.com/CrimsonREwind/text2speech_webapp/assets/106526797/edff03e6-4479-462e-aa8c-9a4d9d208f32)
 
-<img src="https://github.com/CrimsonREwind/text2speech_webapp/blob/a52a91f985791a78c5d4c4dc69f30a236310d3ea/sample/images/Screenshot%20from%202024-03-05%2007-30-01.png">
+![Screenshot from 2024-03-05 07-30-01](https://github.com/CrimsonREwind/text2speech_webapp/assets/106526797/15a3d73b-a443-4043-ab0c-032665478439)
+
 
 ## Usage
 1. Run the Streamlit app: `streamlit run app.py`
@@ -37,10 +38,10 @@ Obtain your API key and URL from IBM Cloud.
 
 ##Sample
 Input:
-```bash"Hello there! This is a test for text-to-speech functionality. I hope this message finds you well. Technology is amazing, isn't it? It's fascinating how computers can convert written words into spoken ones. Let me know how this sounds on your end, and if there's anything else you'd like to try!"```
+```"Hello there! This is a test for text-to-speech functionality. I hope this message finds you well. Technology is amazing, isn't it? It's fascinating how computers can convert written words into spoken ones. Let me know how this sounds on your end, and if there's anything else you'd like to try!"```
 
 Output:
-[Generated_audio](https://github.com/CrimsonREwind/text2speech_webapp/blob/16603ad9a7b0c12cba52391d617c8d74a55abc1f/sample/audio/generated.wav)
+<audio src="https://github.com/CrimsonREwind/text2speech_webapp/blob/main/sample/audio/generated.wav">
 
 ## Contributing
 Feel free to contribute to the project! If you find bugs, have feature requests, or want to improve the code, follow these steps:
