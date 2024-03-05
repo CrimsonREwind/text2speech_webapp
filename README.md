@@ -21,11 +21,9 @@ Make sure you have the following installed:
 
 ## Screenshot
 <img src="https://github.com/CrimsonREwind/text2speech_webapp/blob/a52a91f985791a78c5d4c4dc69f30a236310d3ea/sample/images/Screenshot%20from%202024-03-05%2007-27-06.png">
-<img src="https://github.com/CrimsonREwind/text2speech_webapp/blob/a52a91f985791a78c5d4c4dc69f30a236310d3ea/sample/images/Screenshot%20from%202024-03-05%2007-27-20.png">
+
 <img src="https://github.com/CrimsonREwind/text2speech_webapp/blob/a52a91f985791a78c5d4c4dc69f30a236310d3ea/sample/images/Screenshot%20from%202024-03-05%2007-27-30.png">
-<img src="https://github.com/CrimsonREwind/text2speech_webapp/blob/a52a91f985791a78c5d4c4dc69f30a236310d3ea/sample/images/Screenshot%20from%202024-03-05%2007-28-52.png">
-<img src="https://github.com/CrimsonREwind/text2speech_webapp/blob/a52a91f985791a78c5d4c4dc69f30a236310d3ea/sample/images/Screenshot%20from%202024-03-05%2007-29-04.png">
-<img src="https://github.com/CrimsonREwind/text2speech_webapp/blob/a52a91f985791a78c5d4c4dc69f30a236310d3ea/sample/images/Screenshot%20from%202024-03-05%2007-29-50.png">
+
 <img src="https://github.com/CrimsonREwind/text2speech_webapp/blob/a52a91f985791a78c5d4c4dc69f30a236310d3ea/sample/images/Screenshot%20from%202024-03-05%2007-30-01.png">
 
 ## Usage
@@ -37,6 +35,12 @@ Make sure you have the following installed:
 ## IBM Cloud Text-to-Speech API Credentials
 Obtain your API key and URL from IBM Cloud.
 
+##Sample
+Input:
+```bash"Hello there! This is a test for text-to-speech functionality. I hope this message finds you well. Technology is amazing, isn't it? It's fascinating how computers can convert written words into spoken ones. Let me know how this sounds on your end, and if there's anything else you'd like to try!"```
+
+Output:
+[Generated_audio](https://github.com/CrimsonREwind/text2speech_webapp/blob/16603ad9a7b0c12cba52391d617c8d74a55abc1f/sample/audio/generated.wav)
 
 ## Contributing
 Feel free to contribute to the project! If you find bugs, have feature requests, or want to improve the code, follow these steps:
